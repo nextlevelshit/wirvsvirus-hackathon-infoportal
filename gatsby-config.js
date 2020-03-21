@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Informationsportal zu COVID-19`,
     name: `Informationsportal zu COVID-19`,
-    siteUrl: `https://novela.narative.co`,
+    siteUrl: `https://wirvsvirus-infoportal.netlify.com/`,
     description: `Informationsportal zu COVID-19 mit Verhaltensregeln, Risiken und Folgen, barrierefrei und mehrsprachig`,
     hero: {
-      heading: `Informationsportal zu COVID-19 mit Verhaltensregeln, Risiken und Folgen, barrierefrei und mehrsprachig `,
-      maxWidth: 652,
+      heading: `Informationsportal zu COVID-19 mit Verhaltensregeln, Risiken und Folgen, barrierefrei und mehrsprachig`,
+      maxWidth: 800,
     },
     social: [
       {
