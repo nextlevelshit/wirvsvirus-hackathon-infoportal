@@ -1,34 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
+    title: `Informationsportal zu COVID-19`,
+    name: `Informationsportal zu COVID-19`,
     siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `Informationsportal zu COVID-19 mit Verhaltensregeln, Risiken und Folgen, barrierefrei und mehrsprachig`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Informationsportal zu COVID-19 mit Verhaltensregeln, Risiken und Folgen, barrierefrei und mehrsprachig `,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
         name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
+        url: `https://github.com/nextlevelshit/wirvsvirus-hackathon-infoportal`,
+      }
     ],
   },
   plugins: [
@@ -48,13 +32,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `COVID-19 Infoportal`,
+        short_name: `C19-Infoportal`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `GRAPHCMS`,
+        fieldName: `graphcms`,
+        url: `https://api-euwest.graphcms.com/v1/ck81jc48p0ffl01dmd4lx10nx/master`,
       },
     },
     {
