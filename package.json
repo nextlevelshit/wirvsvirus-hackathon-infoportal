@@ -1,11 +1,11 @@
 {
-  "private": true,
-  "name": "site",
+  "private": false,
+  "name": "wirvsvirus-hackathon-infoportal",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "start": "gatsby develop",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server"
   },
